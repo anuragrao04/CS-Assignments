@@ -1,0 +1,119 @@
+SQL Connectivity Successful
+database created
+
+
+
+Creating table
+.....
+Table Created
+Table:
+
++--------+-------------+------+-----+---------+-------+
+| Field  |     Type    | Null | Key | Default | Extra |
++--------+-------------+------+-----+---------+-------+
+|  Sno   |   int(11)   |  NO  | PRI |   None  |       |
+| Sname  | varchar(70) | YES  |     |   None  |       |
+| Gender |  varchar(1) | YES  |     |   None  |       |
+|  Age   |   int(11)   | YES  |     |   None  |       |
+|  Fees  |   int(11)   | YES  |     |   None  |       |
++--------+-------------+------+-----+---------+-------+
+
+
+
+Inserting Values...
+Values inserted
+
+
+
++-----+------------+--------+-----+-------+
+| Sno |   Sname    | Gender | Age |  Fees |
++-----+------------+--------+-----+-------+
+|  1  |   Ashish   |   M    |  17 |  6550 |
+|  2  | Madhulika  |   F    |  20 |  7124 |
+|  3  | Niti Singh |   F    |  21 | 18000 |
+|  4  |  Pratyush  |   M    |  18 |  1200 |
+|  5  | Anand Seth |   M    |  16 | 19500 |
++-----+------------+--------+-----+-------+
+
+
+
+Updating age...
+
+
+
+Age updated
+
+
+
++-----+----------+--------+-----+------+
+| Sno |  Sname   | Gender | Age | Fees |
++-----+----------+--------+-----+------+
+|  4  | Pratyush |   M    |  20 | 1200 |
++-----+----------+--------+-----+------+
+
+
+
+Arranging table in the order of names...
+
+
+
+Table arranged
+
+
+
++-----+------------+--------+-----+-------+
+| Sno |   Sname    | Gender | Age |  Fees |
++-----+------------+--------+-----+-------+
+|  4  |  Pratyush  |   M    |  20 |  1200 |
+|  3  | Niti Singh |   F    |  21 | 18000 |
+|  2  | Madhulika  |   F    |  20 |  7124 |
+|  1  |   Ashish   |   M    |  17 |  6550 |
+|  5  | Anand Seth |   M    |  16 | 19500 |
++-----+------------+--------+-----+-------+
+
+
+
+Adding column 'course'...
+
+
+
+Column was added.
+
+
+
++-----+------------+--------+-----+-------+------------+
+| Sno |   Sname    | Gender | Age |  Fees |   Course   |
++-----+------------+--------+-----+-------+------------+
+|  1  |   Ashish   |   M    |  17 |  6550 |     C      |
+|  2  | Madhulika  |   F    |  20 |  7124 |    C--     |
+|  3  | Niti Singh |   F    |  21 | 18000 |   Python   |
+|  4  |  Pratyush  |   M    |  20 |  1200 |    Java    |
+|  5  | Anand Seth |   M    |  16 | 19500 | JavaScript |
++-----+------------+--------+-----+-------+------------+
+
+
+
+Calculating lowest and highest fees
+Calculated
+
+
+
+Lowest:
++-----+----------+--------+-----+------+--------+
+| Sno |  Sname   | Gender | Age | Fees | Course |
++-----+----------+--------+-----+------+--------+
+|  4  | Pratyush |   M    |  20 | 1200 |  Java  |
++-----+----------+--------+-----+------+--------+
+
+
+
+Highest:
++-----+------------+--------+-----+-------+------------+
+| Sno |   Sname    | Gender | Age |  Fees |   Course   |
++-----+------------+--------+-----+-------+------------+
+|  5  | Anand Seth |   M    |  16 | 19500 | JavaScript |
++-----+------------+--------+-----+-------+------------+
+
+
+
+###     Assignment Completed     ###

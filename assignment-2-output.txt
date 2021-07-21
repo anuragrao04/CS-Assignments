@@ -1,0 +1,99 @@
+SQL Connectivity Successful
+Creating table
+.....
+Table Created
+Table: 
+
++-------------+-------------+------+-----+---------+-------+
+|    Field    |     Type    | Null | Key | Default | Extra |
++-------------+-------------+------+-----+---------+-------+
+|      No     |   int(11)   |  NO  | PRI |   None  |       |
+|   ItemName  | varchar(70) | YES  |     |   None  |       |
+| CostPerItem |   int(11)   | YES  |     |   None  |       |
+|   Quantity  |   int(11)   | YES  |     |   None  |       |
+|   Warranty  |   int(11)   | YES  |     |   None  |       |
+| Operational |   int(11)   | YES  |     |   None  |       |
++-------------+-------------+------+-----+---------+-------+
+
+ 
+
+Inserting Values...
+Values inserted
+
+ 
+
++----+----------+-------------+----------+----------+-------------+
+| No | ItemName | CostPerItem | Quantity | Warranty | Operational |
++----+----------+-------------+----------+----------+-------------+
+| 1  | Computer |    60000    |    9     |    2     |      7      |
+| 2  | Printer  |    15000    |    3     |    4     |      2      |
+| 3  | Scanner  |    18000    |    1     |    3     |      1      |
+| 4  |  Camera  |    21000    |    2     |    1     |      1      |
+| 5  |  Switch  |     8000    |    1     |    2     |      1      |
++----+----------+-------------+----------+----------+-------------+
+
+ 
+
+Updating Quantity...
+
+ 
+
+Quantity updated
+
+ 
+
++----+----------+-------------+----------+----------+-------------+
+| No | ItemName | CostPerItem | Quantity | Warranty | Operational |
++----+----------+-------------+----------+----------+-------------+
+| 2  | Printer  |    15000    |    10    |    4     |      2      |
++----+----------+-------------+----------+----------+-------------+
+
+ 
+
+Arranging table in the descending order of ItemNames...
+
+ 
+
+Table arranged
+
+ 
+
++----+----------+-------------+----------+----------+-------------+
+| No | ItemName | CostPerItem | Quantity | Warranty | Operational |
++----+----------+-------------+----------+----------+-------------+
+| 5  |  Switch  |     8000    |    1     |    2     |      1      |
+| 3  | Scanner  |    18000    |    1     |    3     |      1      |
+| 2  | Printer  |    15000    |    10    |    4     |      2      |
+| 1  | Computer |    60000    |    9     |    2     |      7      |
+| 4  |  Camera  |    21000    |    2     |    1     |      1      |
++----+----------+-------------+----------+----------+-------------+
+
+ 
+
+Calculating CostPerItem > 20000...
+Calculated
+
+ 
+
+Items with CostPerItem > 20000:
++----------+
+| ItemName |
++----------+
+| Computer |
+|  Camera  |
++----------+
+
+ 
+
+Calculating Warranty = 2 years...
+Items with warranty of 2 years:
++----------+
+| ItemName |
++----------+
+| Computer |
+|  Switch  |
++----------+
+
+ 
+
+###     Assignment Completed     ###

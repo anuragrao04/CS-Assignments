@@ -1,0 +1,76 @@
+SQL Connectivity Successful
+1. Create Table SPORTS
+Table: 
+
++------------+-------------+------+-----+---------+-------+
+|   Field    |     Type    | Null | Key | Default | Extra |
++------------+-------------+------+-----+---------+-------+
+|   GCode    |   int(11)   |  NO  | PRI |   None  |       |
+|  GameName  | varchar(70) | YES  |     |   None  |       |
+| No_Players |   int(11)   | YES  |     |   None  |       |
+| PrizeMoney |   int(11)   | YES  |     |   None  |       |
++------------+-------------+------+-----+---------+-------+
+
+ 
+
+2. Insert Values Into table SPORTS
++-------+--------------+------------+------------+
+| GCode |   GameName   | No_Players | PrizeMoney |
++-------+--------------+------------+------------+
+|  101  | Carrom Board |     2      |    5000    |
+|  102  | Table Tennis |     2      |   12000    |
+|  103  | Lawn Tennis  |     4      |    8000    |
+|  105  |    Chess     |     2      |    9000    |
+|  108  | Table Tennis |     4      |   25000    |
++-------+--------------+------------+------------+
+
+ 
+
+3. Display count of players enrolled for each game
++--------------+-------------------+
+|     Game     | Number Of Players |
++--------------+-------------------+
+| Table Tennis |         6         |
+| Lawn Tennis  |         4         |
+|    Chess     |         2         |
+| Carrom Board |         2         |
++--------------+-------------------+
+
+ 
+
+4. Alter table to add column Date
++-------+--------------+------------+------------+------------+
+| GCode |   GameName   | No_Players | PrizeMoney |    Date    |
++-------+--------------+------------+------------+------------+
+|  101  | Carrom Board |     2      |    5000    | 2020-03-14 |
+|  102  | Table Tennis |     2      |   12000    | 2021-12-03 |
+|  103  | Lawn Tennis  |     4      |    8000    | 2020-03-05 |
+|  105  |    Chess     |     2      |    9000    | 2020-09-03 |
+|  108  | Table Tennis |     4      |   25000    | 2020-08-12 |
++-------+--------------+------------+------------+------------+
+
+ 
+
+5. Display total count, sum of PrizeMoney of players of Table Tennis
++--------------+-----------------+-------------------+
+|   GameName   | Total_No_Player | Total_Prize_Money |
++--------------+-----------------+-------------------+
+| Table Tennis |        6        |       37000       |
++--------------+-----------------+-------------------+
+
+
+
+6. Display records in descending order based on PrizeMoney
++-------+--------------+------------+------------+------------+
+| GCode |   GameName   | No_Players | PrizeMoney |    Date    |
++-------+--------------+------------+------------+------------+
+|  108  | Table Tennis |     4      |   25000    | 2020-08-12 |
+|  102  | Table Tennis |     2      |   12000    | 2021-12-03 |
+|  105  |    Chess     |     2      |    9000    | 2020-09-03 |
+|  103  | Lawn Tennis  |     4      |    8000    | 2020-03-05 |
+|  101  | Carrom Board |     2      |    5000    | 2020-03-14 |
++-------+--------------+------------+------------+------------+
+
+
+
+###     Assignment Completed     ###

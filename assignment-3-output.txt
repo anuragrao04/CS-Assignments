@@ -1,0 +1,99 @@
+SQL Connectivity Successful
+1. Create Table EMP
+Table: 
+
++-----------+-------------+------+-----+---------+-------+
+|   Field   |     Type    | Null | Key | Default | Extra |
++-----------+-------------+------+-----+---------+-------+
+|    W_ID   |   int(11)   |  NO  | PRI |   None  |       |
+| FIRSTNAME | varchar(70) | YES  |     |   None  |       |
+|  LASTNAME | varchar(70) | YES  |     |   None  |       |
+|    CITY   | varchar(70) | YES  |     |   None  |       |
+|   SALARY  |   int(11)   | YES  |     |   None  |       |
++-----------+-------------+------+-----+---------+-------+
+
+ 
+
+2. Insert Values Into table EMP
++------+-----------+----------+-----------+--------+
+| W_ID | FIRSTNAME | LASTNAME |    CITY   | SALARY |
++------+-----------+----------+-----------+--------+
+| 102  |    SAM    |  TONES   |   PARIS   | 75000  |
+| 105  |   SARAH   | ACKERMAN |  NEW YORK | 85000  |
+| 144  |   MANILA  | SENGUPTA | NEW DELHI | 70000  |
+| 210  |   GEORGE  |  SMITH   |   PARIS   | 75000  |
+| 255  |    MARY   |  JONES   |   HUSTON  | 50000  |
++------+-----------+----------+-----------+--------+
+
+ 
+
+3. Display details of employees from Paris
++------+-----------+----------+-------+--------+
+| W_ID | FIRSTNAME | LASTNAME |  CITY | SALARY |
++------+-----------+----------+-------+--------+
+| 102  |    SAM    |  TONES   | PARIS | 75000  |
+| 210  |   GEORGE  |  SMITH   | PARIS | 75000  |
++------+-----------+----------+-------+--------+
+
+ 
+
+4. Alter table to add column department
++------+-----------+----------+-----------+--------+------------+
+| W_ID | FIRSTNAME | LASTNAME |    CITY   | SALARY | DEPARTMENT |
++------+-----------+----------+-----------+--------+------------+
+| 102  |    SAM    |  TONES   |   PARIS   | 75000  |     HR     |
+| 105  |   SARAH   | ACKERMAN |  NEW YORK | 85000  |   SALES    |
+| 144  |   MANILA  | SENGUPTA | NEW DELHI | 70000  |     HR     |
+| 210  |   GEORGE  |  SMITH   |   PARIS   | 75000  |   ADMIN    |
+| 255  |    MARY   |  JONES   |   HUSTON  | 50000  |   SALES    |
++------+-----------+----------+-----------+--------+------------+
+
+ 
+
+5. Show highest and lowest salary department wise
+Highest salary in HR: 
++------+-----------+----------+-------+--------+------------+
+| W_ID | FIRSTNAME | LASTNAME |  CITY | SALARY | DEPARTMENT |
++------+-----------+----------+-------+--------+------------+
+| 102  |    SAM    |  TONES   | PARIS | 75000  |     HR     |
++------+-----------+----------+-------+--------+------------+
+
+
+
+Lowest salary in HR: 
++------+-----------+----------+-----------+--------+------------+
+| W_ID | FIRSTNAME | LASTNAME |    CITY   | SALARY | DEPARTMENT |
++------+-----------+----------+-----------+--------+------------+
+| 144  |   MANILA  | SENGUPTA | NEW DELHI | 70000  |     HR     |
++------+-----------+----------+-----------+--------+------------+
+
+
+
+Highest salary in SALES: 
++------+-----------+----------+----------+--------+------------+
+| W_ID | FIRSTNAME | LASTNAME |   CITY   | SALARY | DEPARTMENT |
++------+-----------+----------+----------+--------+------------+
+| 105  |   SARAH   | ACKERMAN | NEW YORK | 85000  |   SALES    |
++------+-----------+----------+----------+--------+------------+
+
+
+
+Lowest salary in SALES: 
++------+-----------+----------+--------+--------+------------+
+| W_ID | FIRSTNAME | LASTNAME |  CITY  | SALARY | DEPARTMENT |
++------+-----------+----------+--------+--------+------------+
+| 255  |    MARY   |  JONES   | HUSTON | 50000  |   SALES    |
++------+-----------+----------+--------+--------+------------+
+
+
+
+Admin Salary: 
++------+-----------+----------+-------+--------+------------+
+| W_ID | FIRSTNAME | LASTNAME |  CITY | SALARY | DEPARTMENT |
++------+-----------+----------+-------+--------+------------+
+| 210  |   GEORGE  |  SMITH   | PARIS | 75000  |   ADMIN    |
++------+-----------+----------+-------+--------+------------+
+
+
+
+###     Assignment Completed     ###
