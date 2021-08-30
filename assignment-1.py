@@ -8,7 +8,6 @@ if(db):
 
 else: print("SQL Conncectivity Failed")
 
-
 curs = db.cursor(buffered = True)
 curs.execute("drop database if exists assignments")
 curs.execute("create database assignments")

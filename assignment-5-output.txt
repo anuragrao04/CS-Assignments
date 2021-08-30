@@ -1,0 +1,41 @@
+// run 1
+╭─ ~                                                                      ✘  took 16s  at 17:50:12 
+╰─ /bin/python /home/anuragrao/Documents/CS-Assignments/assignment-5.py
+Enter Decimal Number To Convert: 13
+Enter Base To Convert To (Default = 2): 2
+1101
+
+// run2
+╭─ ~                                                                       ✔  took 5s  at 17:50:21 
+╰─ /bin/python /home/anuragrao/Documents/CS-Assignments/assignment-5.py
+Enter Decimal Number To Convert: 15
+Enter Base To Convert To (Default = 2): 
+1111
+
+// run3
+╭─ ~                                                                                 ✔  at 17:50:29 
+╰─ /bin/python /home/anuragrao/Documents/CS-Assignments/assignment-5.py
+Enter Decimal Number To Convert: 4
+Enter Base To Convert To (Default = 2): 
+100
+
+// run4
+╭─ ~                                                                       ✔  took 8s  at 17:50:39 
+╰─ /bin/python /home/anuragrao/Documents/CS-Assignments/assignment-5.py
+Enter Decimal Number To Convert: 3425
+Enter Base To Convert To (Default = 2): 8
+6541
+
+// run5
+╭─ ~                                                                       ✔  took 9s  at 17:50:49 
+╰─ /bin/python /home/anuragrao/Documents/CS-Assignments/assignment-5.py
+Enter Decimal Number To Convert: 235
+Enter Base To Convert To (Default = 2): 16
+EB
+
+// run6
+╭─ ~                                                                       ✔  took 5s  at 17:50:56 
+╰─ /bin/python /home/anuragrao/Documents/CS-Assignments/assignment-5.py
+Enter Decimal Number To Convert: 132544536
+Enter Base To Convert To (Default = 2): 16
+7E67818 
